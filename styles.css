@@ -38,3 +38,10 @@ footer {
     background: #007bff;
     color: #fff;
 }
+
+img {
+    max-width: 100%;  /* Makes images responsive to their container */
+    height: auto;      /* Maintains aspect ratio */
+    display: block;    /* Ensures there is no space below the image */
+    margin: 0 auto;    /* Center the images if needed */
+}
