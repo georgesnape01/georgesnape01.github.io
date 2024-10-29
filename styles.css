@@ -45,3 +45,12 @@ img {
     display: block;    /* Ensures there is no space below the image */
     margin: 0 auto;    /* Center the images if needed */
 }
+
+a {
+    color: white;
+    text-decoration: none; /* Remove underline, if needed */
+}
+
+a:hover {
+    color: #ccccccb2; /* Change hover color, if desired */
+}
