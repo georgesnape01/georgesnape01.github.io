@@ -123,3 +123,16 @@ blockquote p {
 #contact-form button:hover {
     background-color: #f1c40f;
 }
+
+/* Apply the same font to textarea as the rest of the website */
+#contact-form textarea {
+    font-family: Arial, sans-serif;  /* Ensure the same font as the rest of the site */
+    font-size: 16px;  /* Set font size to match the website */
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+    min-height: 100px;
+}
