@@ -136,3 +136,35 @@ blockquote p {
     resize: vertical;
     min-height: 100px;
 }
+
+/* Project boxes */
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.project-box {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    background-color: #4CAF50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.project-box:hover {
+    transform: scale(1.05);
+}
+
+.project-desc {
+    margin-top: 10px;
+    font-size: 14px;
+}
