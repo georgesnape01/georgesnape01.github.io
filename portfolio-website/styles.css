@@ -70,3 +70,56 @@ blockquote {
 blockquote p {
     margin: 0;                    /* Remove default margin on the <p> tag */
 }
+
+/* Contact Button */
+
+#contact {
+    text-align: center;
+    margin-top: 40px;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+#contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+#contact-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+#contact-form button {
+    padding: 12px 20px;
+    background-color: #125297;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#contact-form button:hover {
+    background-color: #f1c40f;
+}
