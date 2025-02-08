@@ -15,8 +15,18 @@ a { color: black; text-decoration: none; }
 a:hover { color: #808080; }
 
 /* quotes */
+/*
 blockquote { border-left: 5px solid #ccc; background-color: #f9f9f9; padding: 10px 20px; margin: 20px 0; font-style: italic; color: #333; }
 blockquote p { margin: 0; }
+*/
+
+/* Custom styling for the experience section */
+blockquote {border-left: 4px solid #ccc; padding-left: 16px; margin-left: 0; margin-bottom: 20px; font-style: normal;}
+.job-title {font-size: 1.3em; /* Larger job titles */ font-weight: bold;}
+.date {font-size: 0.9em; color: #555; margin-top: 4px;}
+.description {margin-top: 8px; font-size: 1em;}
+.description ul {margin-top: 4px;}
+.description li {margin-bottom: 4px;}
 
 /* contact button */
 #contact { text-align: center; margin-top: 40px; background-color: #f9f9f9; padding: 20px; }
