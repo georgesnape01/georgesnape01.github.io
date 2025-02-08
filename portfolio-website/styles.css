@@ -11,7 +11,7 @@ footer { text-align: center; padding: 10px 0; background: #777; }
 img { max-width: 100%; height: auto; display: block; margin: 0 auto; }
 
 /* links */
-a { color: #007BFF; text-decoration: none; }
+/*a { color: #007BFF; text-decoration: none; }*/
 a:hover { color: #A9A9A9; }
 
 /* Education & Experience Boxes */
