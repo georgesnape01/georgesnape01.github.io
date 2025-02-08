@@ -14,14 +14,17 @@ img { max-width: 100%; height: auto; display: block; margin: 0 auto; }
 a { color: #007BFF; text-decoration: none; }
 a:hover { color: #808080; }
 
-/* quotes */
-/*
-blockquote { border-left: 5px solid #ccc; background-color: #f9f9f9; padding: 10px 20px; margin: 20px 0; font-style: italic; color: #333; }
-blockquote p { margin: 0; }
+/* quotes
+blockquote {border-left: 4px solid #ccc; background-color: #f9f9f9; padding-left: 16px; margin-left: 0; margin-bottom: 20px; font-style: normal;}
+.job-title {font-size: 1.3em; font-weight: bold;}
+.date {font-size: 0.9em; color: #555; margin-top: 4px;}
+.description {margin-top: 8px; font-size: 1em;}
+.description ul {margin-top: 4px;}
+.description li {margin-bottom: 4px;}
 */
 
 /* education & experience boxes */
-descbox {border-left: 4px solid #ccc; background-color: #f9f9f9; padding-left: 16px; padding-top: 16px; padding-bottom: 16px; margin-left: 0; margin-bottom: 20px; font-style: normal;}
+descbox {border-left: 4px solid #ccc; background-color: #f9f9f9; padding-left: 16px; font-style: normal; margin-left: 0; margin-bottom: 20px; /* padding-top: 16px; padding-bottom: 16px; */}
 .job-title {font-size: 1.3em; font-weight: bold;}
 .date {font-size: 0.9em; color: #555; margin-top: 4px;}
 .description {margin-top: 12px; font-size: 1em;}
