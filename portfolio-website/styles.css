@@ -1,175 +1,38 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background: #125297;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-section {
-    padding: 20px;
-    margin: 10px;
-}
-
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #125297;
-    color: #fff;
-}
+/* common */
+body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; }
+header { background: #125297; color: #fff; padding: 10px 0; text-align: center; }
+nav ul { list-style-type: none; padding: 0; }
+nav ul li { display: inline; margin: 0 15px; }
+nav ul li a { color: #fff; text-decoration: none; }
+section { padding: 20px; margin: 10px; }
+footer { text-align: center; padding: 10px 0; background: #125297; color: #fff; }
 
 /* images */
-img {
-    max-width: 100%;  /* Makes images responsive to their container */
-    height: auto;      /* Maintains aspect ratio */
-    display: block;    /* Ensures there is no space below the image */
-    margin: 0 auto;    /* Center the images if needed */
-}
+img { max-width: 100%; height: auto; display: block; margin: 0 auto; }
 
 /* links */
-a {
-    color: white;
-    /*text-decoration: none; Remove underline, if needed */
-}
-
-a:hover {
-    color: #ccccccb2; /* Change hover color, if desired */
-}
+a { color: black; text-decoration: none; }
+a:hover { color: #808080; }
 
 /* quotes */
-blockquote {
-    border-left: 5px solid #ccc;  /* Create the box effect */
-    background-color: #f9f9f9;    /* Light background color for emphasis */
-    padding: 10px 20px;           /* Space around the quote */
-    margin: 20px 0;               /* Space above and below the blockquote */
-    font-style: italic;           /* Italic text to emphasize */
-    color: #333;                  /* Text color */
-}
+blockquote { border-left: 5px solid #ccc; background-color: #f9f9f9; padding: 10px 20px; margin: 20px 0; font-style: italic; color: #333; }
+blockquote p { margin: 0; }
 
-blockquote p {
-    margin: 0;                    /* Remove default margin on the <p> tag */
-}
-
-/* Contact Button */
-
-#contact {
-    text-align: center;
-    margin-top: 40px;
-    background-color: #f9f9f9;
-    padding: 20px;
-}
-
-#contact h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-#contact-form {
-    max-width: 500px;
-    margin: 0 auto;
-    background-color: #ffffff;
-    padding: 30px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-}
-
-#contact-form input,
-#contact-form textarea {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-    font-size: 16px;
-}
-
-#contact-form textarea {
-    resize: vertical;
-    min-height: 100px;
-}
-
-#contact-form button {
-    padding: 12px 20px;
-    background-color: #125297;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-#contact-form button:hover {
-    background-color: #f1c40f;
-}
+/* contact button */
+#contact { text-align: center; margin-top: 40px; background-color: #f9f9f9; padding: 20px; }
+#contact h2 { font-size: 24px; margin-bottom: 20px; }
+#contact-form { max-width: 500px; margin: 0 auto; background-color: #ffffff; padding: 30px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border-radius: 10px; }
+#contact-form input, #contact-form textarea { width: 100%; padding: 12px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box; font-size: 16px; }
+#contact-form textarea { resize: vertical; min-height: 100px; }
+#contact-form button { padding: 12px 20px; background-color: #125297; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; }
+#contact-form button:hover { background-color: #f1c40f; }
 
 /* Apply the same font to textarea as the rest of the website */
-#contact-form textarea {
-    font-family: Arial, sans-serif;  /* Ensure the same font as the rest of the site */
-    font-size: 16px;  /* Set font size to match the website */
-    padding: 12px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-    resize: vertical;
-    min-height: 100px;
-}
+#contact-form textarea { font-family: Arial, sans-serif; font-size: 16px; padding: 12px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box; resize: vertical; min-height: 100px; }
 
-/* Project boxes */
-.project-container {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px;
-}
-
-.project-box {
-    width: 30%;
-    background-color: #f0f0f0; /* Light grey background */
-    border-radius: 10px;
-    padding: 20px;
-    color: #333;
-    text-decoration: none;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.project-box:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
-}
-
-.project-box h3 {
-    font-size: 1.5em; /* Slightly larger title */
-    margin-bottom: 10px;
-    font-weight: bold;
-    color: #007BFF;
-    text-decoration: none; /* Remove underlines */
-}
-
-.project-desc {
-    font-size: 14px;
-    line-height: 1.5;
-    color: #555;
-}
+/* project boxes */
+.project-container { display: flex; justify-content: space-between; margin: 20px; }
+.project-box { width: 30%; background-color: #f0f0f0; border-radius: 10px; padding: 20px; color: #333; text-decoration: none; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease, box-shadow 0.3s ease; }
+.project-box:hover { transform: scale(1.05); box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15); }
+.project-box h3 { font-size: 1.5em; margin-bottom: 10px; font-weight: bold; color: #007BFF; text-decoration: none; }
+.project-desc { font-size: 14px; line-height: 1.5; color: #555; }
