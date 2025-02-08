@@ -24,9 +24,9 @@ descbox {border-left: 4px solid #ccc; background-color: #f9f9f9; padding-left: 1
 */
 
 /* Education & Experience Boxes */
-.descbox {background-color: #ffffff; border: 1px solid #ddd; border-radius: 8px; padding: 20px; margin-bottom: 20px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.2s ease-in-out;}
-.descbox:hover {transform: translateY(-5px);}
-.job-title {font-size: 1.4em; font-weight: bold; color: #333; margin-bottom: 8px;}
+.descbox {background: linear-gradient(135deg, #f9f9f9, #f0f0f0); border-radius: 12px; padding: 20px; margin-bottom: 20px; color: #333; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); transition: box-shadow 0.3s ease, border 0.3s ease;}
+.descbox:hover {box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); border: 2px solid #007BFF;}
+.job-title {font-size: 1.5em; margin-bottom: 10px; font-weight: bold; color: #007BFF; text-transform: uppercase; letter-spacing: 1px;}
 .date {font-size: 0.9em; color: #777; margin-bottom: 12px;}
 .description {font-size: 1em; color: #555;}
 .description ul {margin-top: 8px; padding-left: 20px;}
