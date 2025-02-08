@@ -12,7 +12,7 @@ img { max-width: 100%; height: auto; display: block; margin: 0 auto; }
 
 /* links */
 a { color: #007BFF; text-decoration: none; }
-a:hover { color: #808080; }
+a:hover { color: #A9A9A9; }
 
 /* Education & Experience Boxes */
 .descbox {background-color: #f0f0f0; border-radius: 10px; padding: 20px; margin-bottom: 20px; color: #333; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
